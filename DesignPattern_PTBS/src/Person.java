@@ -1,22 +1,12 @@
-public class Person {
+public abstract class Person {
 
 	private ProductMenu theProductMenu;
 
 	private ProductMenu productMenu;
 
-	public void showLabels() {
-
-	}
-
-	public ProductMenu CreateProductMenu() {
-		return null;
-	}
+	public abstract void showMenu();
 
 	public void showAddButton() {
-
-	}
-
-	public void showMenu() {
 
 	}
 
@@ -27,5 +17,11 @@ public class Person {
 	public void showRadioButton() {
 
 	}
+
+	public void showLabels() {
+
+	}
+
+	public abstract ProductMenu CreateProductMenu();
 
 }
