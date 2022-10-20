@@ -1,6 +1,6 @@
 public abstract interface ProductMenu {
 
-	Person person=null;
+	private Person person;
 
 	public abstract void showMenu();
 
