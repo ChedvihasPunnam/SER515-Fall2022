@@ -1,23 +1,16 @@
-import java.io.FileNotFoundException;
-
 public class Buyer extends Person {
 
-	public Buyer(String username, String password) {
-		this.username=username;
-		this.password=password;
+	public Buyer(String UserName, String Password) {
+		this.username=UserName;
+		this.password=Password;
 	}
 
+	public void showMenu() {
 
+	}
 
 	public ProductMenu CreateProductMenu() {
-		System.out.println("Product for: "+this.username);
-		try {
-			this.productMenu=new ProductMenuFactory(this);
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return  null;
+		return null;
 	}
 
 }
