@@ -8,4 +8,8 @@ public class Trading {
 
 	}
 
+	public Trading(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
 }
